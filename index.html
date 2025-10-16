@@ -22,334 +22,581 @@
 <body>
 
     <div id="indicadoresCarousel" class="carousel slide" data-bs-ride="carousel">
-        <!-- Indicadores do carrossel -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#indicadoresCarousel" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#indicadoresCarousel" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#indicadoresCarousel" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#indicadoresCarousel" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#indicadoresCarousel" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#indicadoresCarousel" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#indicadoresCarousel" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
         </div>
 
-        <!-- Slides -->
-        <!-- <div class="carousel-inner">  -->
+        <div class="carousel-inner">
 
-        <!-- Slide 1 - Desenvolvimento -->
-        <!-- <div class="carousel-item active">   -->
-        <!-- <main class="container py-4">  -->
+            <div class="carousel-item active">
+                <main class="container py-4">
+                    <section class="hero" aria-label="Cabeçalho">
+                            <img src="./images/gbmx.png" class="gbmxIcon"></img>
+                        <h1>TI - GREENBRIER MAXION</h1>
+                        <p class="subtitle">Responsável pelo gerênciamento da Infraestrutura Técnologica da empresa.</p>
+                    </section>
 
-        <main class="container py-4">
-            <section class="hero" aria-label="Cabeçalho">
-                <div class="hero-tile" aria-hidden="true">
-                    <i class="ph ph-user-gear"></i>
-                </div>
-                <h1>Administração TI</h1>
-                <p class="subtitle"></p>
+                    <section class="row row-cols-1 row-cols-md-3 g-4 content" aria-label="Indicadores">
 
-            </section>
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-users"></i>
+                                    </div>
+                                    <div class="eyebrow">Equipes</div>
+                                </header>
 
-            <section class="row row-cols-1 row-cols-md-3 g-4" aria-label="Indicadores">
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-users"></i>
-                            </div>
-                            <div class="eyebrow">Integrantes</div>
-                        </header>
-
-                        <div class="card-body">
-                            <ul>
-                                <li class="value">Lindomar Jacob</li>
-                                <li class="value">William Menezes</li>
-                                <li class="value">Marcelo Zanin</li>
-                            </ul>
-                    </article>
-                </div>
-
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-stack"></i>
-                            </div>
-                            <div class="eyebrow">Quantidade de tickets no FreshService</div>
-                        </header>
-                        <div class="card-body">
-                            <li class="value">Todos - 318</li>
-                            <li class="value">Resolvidos - 315</li>
-                            <li class="value">Encerrados - 311</li>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-clipboard-text"></i>
-                            </div>
-                            <div class="eyebrow">Tipos de solicitações atendidas</div>
-                        </header>
-
-                        <div class="card-body">
-                            <ul>
-                                <li class="value">Garantir confidencialidade / integridade / disponibilidade</li>
-                                <li class="value">Liberação de acesso a internet</li>
-                                <li class="value">Identificação de email malicioso</li>
-                                <li class="value">Monitoramento da segurança de dispositivos / redes / servidores</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col-md-12">
-                    <article class="card h-100">
-                        <header class="card-head ferramentaCardSec">
-                            <div class="icon-tile">
-                                <i class="ph ph-clipboard-text"></i>
-                            </div>
-                            <div class="eyebrow">Ferramentas gerenciadas</div>
-                        </header>
-
-                        <div class="card-body ferramentas">
-                            <ul>
-                                <li class="value">WAF - Barra tentativas de invasão de sites externos para nossos
-                                    servidores</li>
-                                <li class="value">Firewall - On Premise (Sala com equipamentos de bloqueio dentro da
-                                    empresa) </li>
-                                <li class="value">NAC - Validações de segurança para acesso a nossa rede</li>
-                                <li class="value">Antivírus Checkpoint - Monitoramento de ataques cibernéticos </li>
-                                <li class="value">Anti-Spam Harmony - Monitoramento e identificação de emails maliciosos
-                                </li>
-                                <li class="value">MFA - Medidas de segurança para controle de acesso</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-
-            </section>
-        </main>
-
-
-        <!-- 
-            <section class="hero" aria-label="Cabeçalho">
-                <div class="hero-tile" aria-hidden="true">
-                    <i class="ph ph-code"></i>
-                </div>
-                <h1>Desenvolvimento</h1>
-                <p class="subtitle">Criação e manutenção de sistemas internos e automações.</p>
-            </section> -->
-
-        <!-- <section class="row row-cols-1 row-cols-md-3 g-4 content" aria-label="Indicadores">
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-users"></i>
-                            </div>
-                            <div class="eyebrow">Integrantes</div>
-                        </header>
-
-                        <div>
-                        <ul>
-                            <li class="value">Igor Marinho</li>
-                            <li class="value">João Victor Santos Santana</li>
-                        </ul>
-                    </article>
-                </div>
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-stack"></i>
-                            </div>
-                            <div class="eyebrow">Telas gerenciadas na Intranet</div>
-                        </header>
-                        <div class="card-body">
-                            <div class="value numeric" id="kpi-intranet" data-target="1845">1.845</div>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-squares-four"></i>
-                            </div>
-                            <div class="eyebrow">Fluxos gerenciados no Workflow</div>
-                        </header>
-                        <div class="card-body">
-                            <div class="value numeric" id="kpi-wf" data-target="235">235</div>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-clipboard-text"></i>
-                            </div>
-                            <div class="eyebrow">Tipos de solicitações atendidas</div>
-                        </header>
-
-                        <div class="card-body">
-                            <ul>
-                                <li class="value">Gerênciamento Intranet / Workflow / FreshService</li>
-                                <li class="value">Desbloqueio de usuário Workflow</li>
-                                <li class="value">Troca de senha Intranet / Workflow</li>
-                                <li class="value">Transferência / Cancelamento de fluxos Workflow</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-stack"></i>
-                            </div>
-                            <div class="eyebrow">Quantidade de tickets no FreshService</div>
-                        </header>
-                        <div class="card-body">
-                            <li class="value">Todos - 1314</li>
-                            <li class="value">Resolvidos - 1300</li>
-                            <li class="value">Encerrados - 1265</li>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-rocket"></i>
-                            </div>
-                            <div class="eyebrow">Projetos realizados</div>
-                        </header>
-                        <div class="card-body">
-                            <li class="value">Capex - AIC</li>
-                            <li class="value">Safety Walk</li>
-                            <li class="value">Paytrack</li>
-                            <li class="value">Construção de base para BI's </li>
-                            <li class="value">Aprovação Eletrônica de OC</li>
-                            <li class="value">Fluxo de caixa</li>
-                            <li class="value">Projetos de TV</li>
-                        </div>
-                    </article>
-                </div>
-            </section> -->
-        <!-- </main>  -->
-        <!-- </div>  -->
-
-        <!-- Slide 2 - Sistemas -->
-        <div class="carousel-item">
-            <main class="container py-4">
-                <section class="hero" aria-label="Cabeçalho">
-                    <div class="hero-tile" aria-hidden="true">
-                        <i class="ph ph-shield"></i>
-                    </div>
-                    <h1>CyberSegurança</h1>
-                    <p class="subtitle">Proteção de dados, redes e sistemas contra ameaças e vulnerabilidades.</p>
-
-                </section>
-
-                <section class="row row-cols-1 row-cols-md-3 g-4" aria-label="Indicadores">
-                    <!-- <div class="col">
-                        <article class="card h-100">
-                            <header class="card-head">
-                                <div class="icon-tile">
-                                    <i class="ph ph-users"></i>
+                                <div class="card-body">
+                                    <div class="value numeric">Administração TI</div>
+                                    <div class="value numeric">CyberSegurança</div>
+                                    <div class="value numeric">DBA</div>
+                                    <div class="value numeric">Desenvolvimento</div>
+                                    <div class="value numeric">Infraestrutura</div>
+                                    <div class="value numeric">Sistemas</div>
                                 </div>
-                                <div class="eyebrow">Integrantes</div>
-                            </header>
-                    
-                            <div class="card-body">
-                                <ul>
-                                    <li class="value">Lindomar Jacob</li>
-                                    <li class="value">William Menezes</li>
-                                    <li class="value">Marcelo Zanin</li>
-                                </ul>
-                        </article>
-                    </div>
-
-
-                <div class="col">
-                    <article class="card h-100">
-                        <header class="card-head">
-                            <div class="icon-tile">
-                                <i class="ph ph-stack"></i>
-                            </div>
-                            <div class="eyebrow">Quantidade de tickets no FreshService</div>
-                        </header>
-                        <div class="card-body">
-                            <li class="value">Todos - 318</li>
-                            <li class="value">Resolvidos - 315</li>
-                            <li class="value">Encerrados - 311</li>
+                            </article>
                         </div>
-                    </article>
-                </div>
+                      
 
-                    <div class="col">
-                        <article class="card h-100">
-                            <header class="card-head">
-                                <div class="icon-tile">
-                                    <i class="ph ph-clipboard-text"></i>
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-clipboard-text"></i>
+                                    </div>
+                                    <div class="eyebrow">Gerência</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <div class="value numeric">Raoni Cano Bandeira</div>
+                                    <div class="value numeric">Roque Augusto</div>
+                                    <div class="value numeric">Fabio Querubin de Brito</div>
                                 </div>
-                                <div class="eyebrow">Tipos de solicitações atendidas</div>
-                            </header>
-                    
-                            <div class="card-body">
-                                <ul>
-                                    <li class="value">Garantir confidencialidade / integridade / disponibilidade</li>
-                                    <li class="value">Liberação de acesso a internet</li>
-                                    <li class="value">Identificação de email malicioso</li>
-                                    <li class="value">Monitoramento da segurança de dispositivos / redes / servidores</li>
-                                </ul>
-                            </div>
-                        </article>
-                    </div>
-
-                <div class="col-md-12">
-                    <article class="card h-100">
-                        <header class="card-head ferramentaCardSec">
-                            <div class="icon-tile">
-                                <i class="ph ph-clipboard-text"></i>
-                            </div>
-                            <div class="eyebrow">Ferramentas gerenciadas</div>
-                        </header>
-                
-                        <div class="card-body ferramentas">
-                            <ul>
-                                <li class="value">WAF - Barra tentativas de invasão de sites externos para nossos servidores</li>
-                                <li class="value">Firewall - On Premise (Sala com equipamentos de bloqueio dentro da empresa) </li>
-                                <li class="value">NAC - Validações de segurança para acesso a nossa rede</li>
-                                <li class="value">Antivírus Checkpoint - Monitoramento de ataques cibernéticos </li>
-                                <li class="value">Anti-Spam Harmony - Monitoramento e identificação de emails maliciosos</li>
-                                <li class="value">MFA - Medidas de segurança para controle de acesso</li>
-                            </ul>
+                            </article>
                         </div>
-                    </article>
-                </div> -->
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-stack"></i>
+                                    </div>
+                                    <div class="eyebrow">Quantidade de tickets no FreshService</div>
+                                </header>
+                                <div class="card-body">
+                                    <li class="value">Todos ≈ 5309</li>
+                                    <li class="value">Resolvidos ≈ 5153 </li>
+                                    <li class="value">Encerrados ≈ 4998</li>
+                                </div>
+                            </article>
+                        </div>
+                            <div class="col-md-12">
+                                <article class="card h-100">
+                                    <header class="card-head ferramentaCardSec">
+                                        <div class="icon-tile">
+                                            <i class="ph ph-clipboard-text"></i>
+                                        </div>
+                                        <div class="eyebrow">Gerenciamento</div>
+                                    </header>
+                            
+                                    <div class="card-body admin">
+                                        <div class="equipamentos">
+                                            <h3>Equipamentos</h3>
+                                            <ul>
+                                                <li class="value">Servidores - 2</li>
+                                                <li class="value">Celulares Corporativos - 200</li>
+                                                <li class="value">Tablets - 3 </li>
+                                                <li class="value">Notebooks - 170 </li>
+                                                <li class="value">Computadores - 418 </li>
+                                                <li class="value">Televisões - 81 </li>
+                                                <li class="value">Impressoras - 64 </li>
+                                            </ul>
+                                        </div>
+                                        <div class="licencas">
+                                            <h3>Sistemas gerenciados</h3>
+                                            <ul>
+                                                <li class="value">Intranet</li>
+                                                <li class="value">Workflow</li>
+                                                <li class="value">Power BI</li>
+                                                <li class="value">Senior</li>
+                                                <li class="value">FreshService</li>
+                                                <li class="value">MES</li>
+                                                <li class="value">Microsoft 365</li>
+                                            </ul>
+                                        </div>
+                                        <div class="servicos">
+                                            <h3>Serviços</h3>
+                                            <ul>
+                                                <li class="value">Projetos realizados ≈ </li>
+                                                <li class="value">Quantidade de áreas atendidas ≈ </li>
+                                                <li class="value">Projetos que atenderam + 100 funcionários ≈ 18</li>
+                                                <li class="value">Projetos com ROI ≈ 15</li>
+                                                <li class="value">Redução mensal de horas de trabalho ≈ </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
 
-                </section>
-            </main>
+                    </section>
+                </main>
+            </div>
+
+            <div class="carousel-item">
+                <main class="container py-4">
+                    <section class="hero" aria-label="Cabeçalho">
+                        <div class="hero-tile" aria-hidden="true">
+                            <i class="ph ph-gear"></i>
+                        </div>
+                        <h1>SISTEMAS</h1>
+                        <p class="subtitle">Criação e manutenção de sistemas internos e automações.</p>
+                    </section>
+
+                    <section class="row row-cols-1 row-cols-md-3 g-4 content" aria-label="Indicadores">
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-users"></i>
+                                    </div>
+                                    <div class="eyebrow">Integrantes</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <div class="value numeric">Andressa da Silva Mendes</div>
+                                    <div class="value numeric">Caio Cesar Fernandes</div>
+                                    <div class="value numeric">Diego Donizeti de Lima</div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-stack"></i>
+                                    </div>
+                                    <div class="eyebrow">Quantidade de tickets no FreshService</div>
+                                </header>
+                                <div class="card-body">
+                                    <li class="value">Todos ≈ 769</li>
+                                    <li class="value">Resolvidos ≈ 706 </li>
+                                    <li class="value">Encerrados ≈ 684</li>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-clipboard-text"></i>
+                                    </div>
+                                    <div class="eyebrow">Tipos de solicitações atendidas</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="value">Logix</li>
+                                        <li class="value">Senior</li>
+                                        <li class="value">Arquivo Vivo</li>
+                                        <li class="value">Power BI</li>
+                                        <li class="value">ANFE</li>
+                                        <li class="value">Solicitações de criação / alteração de projetos</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-stack"></i>
+                                    </div>
+                                    <div class="eyebrow">Telas gerenciadas na Intranet</div>
+                                </header>
+                                <div class="card-body">
+                                    <div class="value numeric" id="kpi-intranet" data-target="1845">1.845</div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-squares-four"></i>
+                                    </div>
+                                    <div class="eyebrow">Fluxos gerenciados no Workflow</div>
+                                </header>
+                                <div class="card-body">
+                                    <div class="value numeric" id="kpi-wf" data-target="235">235</div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-rocket"></i>
+                                    </div>
+                                    <div class="eyebrow">Projetos realizados</div>
+                                </header>
+                                <div class="card-body">
+
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </main>
+            </div>
+
+            <div class="carousel-item">
+                <main class="container py-4">
+                    <section class="hero" aria-label="Cabeçalho">
+                        <div class="hero-tile" aria-hidden="true">
+                            <i class="ph ph-code"></i>
+                        </div>
+                        <h1>Desenvolvimento</h1>
+                        <p class="subtitle">Criação e manutenção de sistemas internos e automações.</p>
+                    </section>
+
+                    <section class="row row-cols-1 row-cols-md-3 g-4 content" aria-label="Indicadores">
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-users"></i>
+                                    </div>
+                                    <div class="eyebrow">Integrantes</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <div class="value numeric">Igor Marinho</div>
+                                    <div class="value numeric">João Victor Santos</div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-stack"></i>
+                                    </div>
+                                    <div class="eyebrow">Telas gerenciadas na Intranet</div>
+                                </header>
+                                <div class="card-body">
+                                    <div class="value devInfo" id="kpi-intranet" data-target="1845">1.845</div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-squares-four"></i>
+                                    </div>
+                                    <div class="eyebrow">Fluxos gerenciados no Workflow</div>
+                                </header>
+                                <div class="card-body">
+                                    <div class="value devInfo" id="kpi-wf" data-target="235">235</div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-clipboard-text"></i>
+                                    </div>
+                                    <div class="eyebrow">Tipos de solicitações atendidas</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="value">Gerênciamento Intranet / Workflow / FreshService</li>
+                                        <li class="value">Desbloqueio de usuário Workflow</li>
+                                        <li class="value">Troca de senha Intranet / Workflow</li>
+                                        <li class="value">Transferência / Cancelamento de fluxos Workflow</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-stack"></i>
+                                    </div>
+                                    <div class="eyebrow">Quantidade de tickets no FreshService</div>
+                                </header>
+                                <div class="card-body">
+                                    <li class="value">Todos - 1314</li>
+                                    <li class="value">Resolvidos - 1300</li>
+                                    <li class="value">Encerrados - 1265</li>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-rocket"></i>
+                                    </div>
+                                    <div class="eyebrow">Projetos realizados</div>
+                                </header>
+                                <div class="card-body">
+                                    <li class="value">Capex - AIC</li>
+                                    <li class="value">Safety Walk</li>
+                                    <li class="value">Paytrack</li>
+                                    <li class="value">Construção de base para BI's </li>
+                                    <li class="value">Aprovação Eletrônica de OC</li>
+                                    <li class="value">Fluxo de caixa</li>
+                                    <li class="value">Projetos de TV</li>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </main>
+            </div>
+
+
+
+            <div class="carousel-item">
+                <main class="container py-4">
+                    <section class="hero" aria-label="Cabeçalho">
+                        <div class="hero-tile" aria-hidden="true">
+                            <i class="ph ph-user-gear"></i>
+                        </div>
+                        <h1>ADMINISTRAÇÃO TI</h1>
+                        <p class="subtitle">Gestão estratégica de Infraestrutura e Suporte</p>
+                    </section>
+
+                    <section class="row row-cols-1 row-cols-md-3 g-4" aria-label="Indicadores">
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-users"></i>
+                                    </div>
+                                    <div class="eyebrow">Integrantes</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <div class="value numeric">Caroline Almeida</div>
+
+                                </div>
+                            </article>
+                        </div>
+
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-stack"></i>
+                                    </div>
+                                    <div class="eyebrow">Quantidade de notas lançadas no ano fiscal 2024/2025</div>
+                                </header>
+                                <div class="card-body">
+                                    <li class="value">GBMX - 743</li>
+                                    <li class="value">Amsted - 1480</li>
+                                    <li class="value">Total - 2223</li>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-clipboard-text"></i>
+                                    </div>
+                                    <div class="eyebrow">Tipos de solicitações atendidas</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="value">Lançamento de notas GBMX / AMSTED</li>
+                                        <li class="value">Rateio / Divisão de despesas por Centro de Custo</li>
+                                        <li class="value">Gerenciamento de compras de eletrônicos</li>
+                                        <li class="value">Gerenciamento de renovações e ativos (Hardwares / Licenças)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-md-12">
+                            <article class="card h-100">
+                                <header class="card-head ferramentaCardSec">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-clipboard-text"></i>
+                                    </div>
+                                    <div class="eyebrow">Gerenciamento</div>
+                                </header>
+
+                                <div class="card-body admin">
+                                    <div class="equipamentos">
+                                        <h3>Equipamentos</h3>
+                                        <ul>
+                                            <li class="value">Microcomputadores</li>
+                                            <li class="value">Celulares / Tablets Corporativos </li>
+                                            <li class="value">Equipamentos de som sala Hooper </li>
+                                        </ul>
+                                    </div>
+                                    <div class="licencas">
+                                        <h3>Licenças</h3>
+                                        <ul>
+                                            <li class="value">Windows Server</li>
+                                            <li class="value">Microsoft 365</li>
+                                            <li class="value">Softwares de Segurança TI</li>
+                                        </ul>
+                                    </div>
+                                    <div class="servicos">
+                                        <h3>Serviços</h3>
+                                        <ul>
+                                            <li class="value">Instalação de antenas WIFI nos pavilhões</li>
+                                            <li class="value">Conserto de celulares corporativos</li>
+                                            <li class="value">Instalação de de Infraestrutura para Ramal Telefônico</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </main>
+            </div>
+
+
+
+            <div class="carousel-item">
+                <main class="container py-4">
+                    <section class="hero" aria-label="Cabeçalho">
+                        <div class="hero-tile" aria-hidden="true">
+                            <i class="ph ph-shield"></i>
+                        </div>
+                        <h1>CYBERSEGURANÇA</h1>
+                        <p class="subtitle">Proteção de dados, redes e sistemas contra ameaças e vulnerabilidades.</p>
+                    </section>
+
+                    <section class="row row-cols-1 row-cols-md-3 g-4" aria-label="Indicadores">
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-users"></i>
+                                    </div>
+                                    <div class="eyebrow">Integrantes</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <div class="value numeric">Lindomar Jacob</div>
+                                    <div class="value numeric">Marcelo Zanin</div>
+                                    <div class="value numeric">William Cardoso de Menezes</div>
+                                </div>
+                            </article>
+                        </div>
+
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-stack"></i>
+                                    </div>
+                                    <div class="eyebrow">Quantidade de tickets no FreshService</div>
+                                </header>
+                                <div class="card-body">
+                                    <li class="value">Todos - 318</li>
+                                    <li class="value">Resolvidos - 315</li>
+                                    <li class="value">Encerrados - 311</li>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col">
+                            <article class="card h-100">
+                                <header class="card-head">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-clipboard-text"></i>
+                                    </div>
+                                    <div class="eyebrow">Tipos de solicitações atendidas</div>
+                                </header>
+
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="value">Garantir confidencialidade / integridade / disponibilidade
+                                        </li>
+                                        <li class="value">Liberação de acesso a internet</li>
+                                        <li class="value">Identificação de email malicioso</li>
+                                        <li class="value">Monitoramento da segurança de dispositivos / redes /
+                                            servidores
+                                        </li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-md-12">
+                            <article class="card h-100">
+                                <header class="card-head ferramentaCardSec">
+                                    <div class="icon-tile">
+                                        <i class="ph ph-clipboard-text"></i>
+                                    </div>
+                                    <div class="eyebrow">Ferramentas gerenciadas</div>
+                                </header>
+
+                                <div class="card-body ferramentas">
+                                    <ul>
+                                        <li class="value">WAF - Barra tentativas de invasão de sites externos para
+                                            nossos servidores</li>
+                                        <li class="value">Firewall - On Premise (Sala com equipamentos de bloqueio
+                                            dentro da empresa) </li>
+                                        <li class="value">NAC - Validações de segurança para acesso a nossa rede</li>
+                                        <li class="value">Antivírus Checkpoint - Monitoramento de ataques cibernéticos
+                                        </li>
+                                        <li class="value">Anti-Spam Harmony - Monitoramento e identificação de emails
+                                            maliciosos</li>
+                                        <li class="value">MFA - Medidas de segurança para controle de acesso</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+
+                    </section>
+                </main>
+            </div> 
         </div>
-    </div>
 
-    <!-- Controles -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#indicadoresCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#indicadoresCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Próximo</span>
-    </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#indicadoresCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#indicadoresCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
     </div>
 
 </body>

@@ -296,7 +296,7 @@ input[readonly] {
     align-items: center;
     text-align: center;
     margin-top: 8px;
-    margin-bottom: 40px
+    margin-bottom: 20px
 }
 
 .hero-tile {
@@ -317,7 +317,7 @@ input[readonly] {
 
 h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 35px;
     letter-spacing: .2px;
     margin: 18px 0 10px
 }
@@ -352,7 +352,7 @@ h1 {
     background: var(--card);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-    padding: 20px 22px 18px;
+    padding: 20px 22px 0px;
     min-height: 168px;
     display: flex;
     flex-direction: column;
@@ -368,7 +368,7 @@ h1 {
 .card-head {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 10px;
     border-radius: 20px
 }
 
@@ -402,9 +402,8 @@ h1 {
 }
 
 .value.numeric {
-    font-size: 28px;
-    font-weight: 600;
-    letter-spacing: .3px
+    font-size: 20px;
+    font-weight:lighter;
 }
 
 .placeholder {
@@ -465,3 +464,36 @@ h1 {
     margin: -10px 10px;
 }
 
+.card-body.admin {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr; 
+    
+    gap: 30px; 
+    
+    padding: 20px; 
+}
+
+.card-body.admin h3 {
+    border-bottom: 2px solid #eee; /* Linha divisória sutil */
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.card-body.admin ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-body li {
+    font-size: 1.1rem;
+}
+
+.gbmxIcon{
+    width: 250px;
+}
+
+.devInfo{
+    text-align: center;
+    font-weight: 700;
+}
